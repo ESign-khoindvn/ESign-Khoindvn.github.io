@@ -1,1 +1,2 @@
-njth:njth.servegame.com:14444:0:0
+#IP SEVER Đây nhé,
+Njth:njth.servegame.com:14444:0:0
