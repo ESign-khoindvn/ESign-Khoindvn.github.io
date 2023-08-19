@@ -10,18 +10,18 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://ultralow.dns.nextdns.io/a7cf95</string>
+				<string>https://apple.dns.nextdns.io/734541</string>
 			</dict>
 			<key>PayloadDisplayName</key>
 			<string>Chặn Thu Hồi Ko Chặn ADS </string>
 			<key>PayloadIdentifier</key>
-			<string>io.nextdns.a7cf95.profile.dnsSettings.managed</string>
+			<string>io.nextdns.734541.profile.dnsSettings.managed</string>
 			<key>PayloadOrganization</key>
 			<string>Khơindvn</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.a7cf95</string>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.734541</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -31,18 +31,18 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://ultralow.dns.nextdns.io/881bd9</string>
+				<string>https://apple.dns.nextdns.io/c6fd8f</string>
 			</dict>
 			<key>PayloadDisplayName</key>
 			<string>Chặn Thu Hồi Có Chặn ADS </string>
 			<key>PayloadIdentifier</key>
-			<string>io.nextdns.881bd9.profile.dnsSettings.managed</string>
+			<string>io.nextdns.c6fd8f.profile.dnsSettings.managed</string>
 			<key>PayloadOrganization</key>
 			<string>Khơindvn</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.881bd9</string>
+			<string>A1E2F262-DB73-40F6-BD22-2E42A43A3C94.c6fd8f</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
