@@ -21,3 +21,12 @@ letsencrypt.org
 mesu.apple.com
 gdmf.apple.com
 iadsdk.apple.com
+ocsp-lb.apple.com.akadns.net
+ocsp2-lb.apple.com.akadns.net
+certs-lb.apple.com.akadns.net
+crl-lb.apple.com.akadns.net
+valid.origin-apple.com.akadns.net
+vpp.itunes-apple.com.akadns.net
+mesu-cdn.apple.com.akadns.net
+crt.apple.com
+crt.v.aaplimg.com
