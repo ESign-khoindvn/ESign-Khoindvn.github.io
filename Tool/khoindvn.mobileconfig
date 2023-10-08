@@ -9,13 +9,6 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>2606:4700:4700::1111</string>
-					<string>2606:4700:4700::1001</string>
-					<string>1.1.1.1</string>
-					<string>1.0.0.1</string>
-				</array>
 				<key>ServerURL</key>
 				<string>https://y5orj5gvbz.cloudflare-gateway.com/dns-query</string>
 			</dict>
@@ -56,13 +49,6 @@
 			<dict>
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
-				<key>ServerAddresses</key>
-				<array>
-					<string>2606:4700:4700::1111</string>
-					<string>2606:4700:4700::1001</string>
-					<string>1.1.1.1</string>
-					<string>1.0.0.1</string>
-				</array>
 				<key>ServerURL</key>
 				<string>https://m388zwt366.cloudflare-gateway.com/dns-query</string>
 			</dict>
