@@ -18,7 +18,6 @@ ocsp03.apple.com
 a.aaplimg.com
 g.aaplimg.com
 letsencrypt.org
-mesu.apple.com
 gdmf.apple.com
 iadsdk.apple.com
 ocsp-lb.apple.com.akadns.net
