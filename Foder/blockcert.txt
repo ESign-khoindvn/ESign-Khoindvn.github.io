@@ -14,8 +14,6 @@ usetrust.com
 sectigo.com
 support.apple.com
 ocsp03.apple.com
-0.apple.com
-a.aaplimg.com
 g.aaplimg.com
 letsencrypt.org
 gdmf.apple.com
@@ -29,3 +27,4 @@ vpp.itunes-apple.com.akadns.net
 mesu-cdn.apple.com.akadns.net
 crt.apple.com
 crt.v.aaplimg.com
+mesu.apple.com
