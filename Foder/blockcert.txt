@@ -27,4 +27,3 @@ vpp.itunes-apple.com.akadns.net
 mesu-cdn.apple.com.akadns.net
 crt.apple.com
 crt.v.aaplimg.com
-mesu.apple.com
