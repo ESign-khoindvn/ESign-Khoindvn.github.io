@@ -5,7 +5,6 @@ entrust.net
 valid.apple.com
 certs.apple.com
 crl.apple.com
-app.apple.com
 ocsp2.apple.com
 ocsp.apple.com
 usetrust.com
