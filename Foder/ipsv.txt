@@ -1,1 +1,1 @@
-Nso-Lav:14.225.208.164:14444:0:0,NsoTop:14.225.208.43:14444:0:0,Hero:nso15.ipsv.eu.org:14444:0:0,Cyber:nso14.ipsv.eu.org:14444:0:0,KING:sv1.nsoking.me:14444:0:0,luxury:14.225.209.3:14444:0:0,Khơindvn(New):khoindvn.bio.link:14444:0:1
+Nso-Lav:14.225.208.164:14444:0:0,NsoTop:14.225.208.43:14444:0:0,Hero:nso15.ipsv.eu.org:14444:0:0,KING:sv1.nsoking.me:14444:0:0,luxury:14.225.209.3:14444:0:0,Khơindvn(New):khoindvn.bio.link:14444:0:1
