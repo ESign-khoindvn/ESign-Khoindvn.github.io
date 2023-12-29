@@ -1,1 +1,1 @@
-HOIUC:s1.maychu01.com:14444:0:0:0:0,Hoiuc(New):s1.maychu01.com:14444:0:1
+NSO VIỆT :14.225.219.29:14444:0:0:0:0,NSO VIỆT(New):14.225.219.29:14444:0:1
