@@ -11,28 +11,14 @@
 				<string>HTTPS</string>
 				<key>ServerURL</key>
 				<string>https://y5orj5gvbz.cloudflare-gateway.com/dns-query</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>ocsp.apple.com</string>
+					<string>ocsp2.apple.com</string>
+				</array>
 			</dict>
-			<key>OnDemandRules</key>
-			<array>
-				<dict>
-					<key>Action</key>
-					<string>Connect</string>
-					<key>InterfaceTypeMatch</key>
-					<string>WiFi</string>
-				</dict>
-				<dict>
-					<key>Action</key>
-					<string>Connect</string>
-					<key>InterfaceTypeMatch</key>
-					<string>Cellular</string>
-				</dict>
-				<dict>
-					<key>Action</key>
-					<string>Disconnect</string>
-				</dict>
-			</array>
 			<key>PayloadDisplayName</key>
-			<string>DNS Chặn Thu Hồi Có Chặn ADS</string>
+			<string>DNS Chặn Thu Hồi Block ADS ❤️</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.9d981129-d086-4891-b2cf-165ede3f8a90</string>
 			<key>PayloadOrganization</key>
@@ -51,28 +37,14 @@
 				<string>HTTPS</string>
 				<key>ServerURL</key>
 				<string>https://m388zwt366.cloudflare-gateway.com/dns-query</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>ocsp.apple.com</string>
+					<string>ocsp2.apple.com</string>
+				</array>
 			</dict>
-			<key>OnDemandRules</key>
-			<array>
-				<dict>
-					<key>Action</key>
-					<string>Connect</string>
-					<key>InterfaceTypeMatch</key>
-					<string>WiFi</string>
-				</dict>
-				<dict>
-					<key>Action</key>
-					<string>Connect</string>
-					<key>InterfaceTypeMatch</key>
-					<string>Cellular</string>
-				</dict>
-				<dict>
-					<key>Action</key>
-					<string>Disconnect</string>
-				</dict>
-			</array>
 			<key>PayloadDisplayName</key>
-			<string>DNS Chặn Thu Hồi Không Chặn ADS</string>
+			<string>DNS Chặn Thu Hồi No Block ADS ❤️</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.fac89862-8acc-466a-a412-81fdc856dae2</string>
 			<key>PayloadOrganization</key>
@@ -84,17 +56,42 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>ServerAddresses</key>
+				<array/>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>ocsp.apple.com</string>
+					<string>ocsp2.apple.com</string>
+				</array>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Chặn Thu Hồi ( New ) ❤️</string>
+			<key>PayloadIdentifier</key>
+			<string>com.khoindvn.apple-dns.9bdeb781-cae9-499a-b996-6f05939622e4</string>
+			<key>PayloadOrganization</key>
+			<string>khơindvn</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>c26bcb7b-51df-443c-b842-b46ba09b3190</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>  ❤ Vũ Văn Khơi 🇻🇳
+	<string>Vũ Văn Khơi ✅ 
 
-- I come from Vietnam 🇻🇳 
-- Made With Khơindvn ❤️
-- Copyright belongs to Khoindvn
-- Share nhớ ghi nguồn ✅
-- Share and remember to credit the source ✅</string>
+Update thêm 1 cấu chặn Thu hồi 
+
+- Fix Lỗi Ko Vào Đc App Ngân Hàng 
+
+- Muốn Ổn Định Ko Lỗi Thì Chọn Cấu Hình 
+    ( Chặn Thu Hồi Nhé ❤️ )</string>
 	<key>PayloadDisplayName</key>
-	<string>DNS Chặn Thu Hồi Editer Khơindvn</string>
+	<string>DNS Chặn Thu Hồi Khơindvn</string>
 	<key>PayloadIdentifier</key>
 	<string>com.khoindvn.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
 	<key>PayloadRemovalDisallowed</key>
