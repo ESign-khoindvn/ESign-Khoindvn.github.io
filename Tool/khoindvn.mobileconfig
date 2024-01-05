@@ -11,11 +11,6 @@
 				<string>HTTPS</string>
 				<key>ServerURL</key>
 				<string>https://y5orj5gvbz.cloudflare-gateway.com/dns-query</string>
-				<key>SupplementalMatchDomains</key>
-				<array>
-					<string>ocsp.apple.com</string>
-					<string>ocsp2.apple.com</string>
-				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
 			<string>DNS Chặn Thu Hồi Block ADS ❤️</string>
@@ -37,11 +32,6 @@
 				<string>HTTPS</string>
 				<key>ServerURL</key>
 				<string>https://m388zwt366.cloudflare-gateway.com/dns-query</string>
-				<key>SupplementalMatchDomains</key>
-				<array>
-					<string>ocsp.apple.com</string>
-					<string>ocsp2.apple.com</string>
-				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
 			<string>DNS Chặn Thu Hồi No Block ADS ❤️</string>
