@@ -10,10 +10,10 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://y5orj5gvbz.cloudflare-gateway.com/dns-query</string>
+				<string>https://382egudhre.cloudflare-gateway.com/dns-query</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>DNS Chặn Thu Hồi Block ADS ❤️</string>
+			<string>Chặn Quảng Cáo ✅</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.9d981129-d086-4891-b2cf-165ede3f8a90</string>
 			<key>PayloadOrganization</key>
@@ -34,7 +34,7 @@
 				<string>https://m388zwt366.cloudflare-gateway.com/dns-query</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>DNS Chặn Thu Hồi No Block ADS ❤️</string>
+			<string>Không Chặn Quảng Cáo ✅</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.fac89862-8acc-466a-a412-81fdc856dae2</string>
 			<key>PayloadOrganization</key>
@@ -55,10 +55,20 @@
 				<array>
 					<string>ocsp.apple.com</string>
 					<string>ocsp2.apple.com</string>
+					<string>certs.apple.com</string>
+					<string>crl.apple.com</string>
+					<string>valid.apple.com</string>
+					<string>mesu.apple.com</string>
+					<string>appattest.apple.com</string>
+					<string>vpp.itunes.apple.com</string>
+					<string>comm-main.ess.apple.com</string>
+					<string>comm-cohort.ess.apple.com</string>
+					<string>axm-app.apple.com</string>
+					<string>gdmf.apple.com</string>
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Chặn Thu Hồi ( New ) ❤️</string>
+			<string>Chặn Thu Hồi ✅</string>
 			<key>PayloadIdentifier</key>
 			<string>com.khoindvn.apple-dns.9bdeb781-cae9-499a-b996-6f05939622e4</string>
 			<key>PayloadOrganization</key>
@@ -72,16 +82,24 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Vũ Văn Khơi ✅ 
+	<string>Vũ Văn Khơi  ❤️( Đọc kỹ Nhé )
 
-- Update thêm 1 cấu chặn Thu hồi 
+- Không Phải Bạn Nào Cũng Thành Công
 
-- Có Thể Đi Kèm Với Chặn Ads Và Không chặn Ads
+- Và Cũng Có Tỉ Lệ Cài Thành Công Là 50/50
 
-- Phù Hợp Cho Ae tuỳ Chỉnh Nhé 
+- Bạn Nào Cài Thành Công Thì Chúc Mừng Nhé 
+
+- Và Những Bạn Cài Không Thành Công Nó Sẽ Hiện 
+
+- Ứng Dụng Không Toàn Vẹn 
+
+- Tải Xuống Hết Tất Cả Mà Bạn Không Được Cái Nào 
+
+- Thì Chúc Mừng Bạn Đã Quay Vào Ô Mất Lượt 😂😂
 </string>
 	<key>PayloadDisplayName</key>
-	<string>DNS Chặn Thu Hồi Khơindvn</string>
+	<string>DNS By Khơindvn</string>
 	<key>PayloadIdentifier</key>
 	<string>com.khoindvn.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
 	<key>PayloadRemovalDisallowed</key>
