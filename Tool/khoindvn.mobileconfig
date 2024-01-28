@@ -10,10 +10,10 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://382egudhre.cloudflare-gateway.com/dns-query</string>
+				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query#(dns by khơindvn)</string>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Chặn Quảng Cáo ✅</string>
+			<string>Block ADS 💕</string>
 			<key>PayloadIdentifier</key>
 			<string>com.apple.dnsSettings.managed.9d981129-d086-4891-b2cf-165ede3f8a90</string>
 			<key>PayloadOrganization</key>
@@ -22,27 +22,6 @@
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
 			<string>0085f63c-ab6d-45ae-9f87-8e0cef7335d4</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>DNSSettings</key>
-			<dict>
-				<key>DNSProtocol</key>
-				<string>HTTPS</string>
-				<key>ServerURL</key>
-				<string>https://m388zwt366.cloudflare-gateway.com/dns-query</string>
-			</dict>
-			<key>PayloadDisplayName</key>
-			<string>Không Chặn Quảng Cáo ✅</string>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.fac89862-8acc-466a-a412-81fdc856dae2</string>
-			<key>PayloadOrganization</key>
-			<string>khơindvn</string>
-			<key>PayloadType</key>
-			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>231184fd-09c0-450a-a34a-e3185fff5f75</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -68,7 +47,7 @@
 				</array>
 			</dict>
 			<key>PayloadDisplayName</key>
-			<string>Chặn Thu Hồi ✅</string>
+			<string>Anti Revoke Cert ✅</string>
 			<key>PayloadIdentifier</key>
 			<string>com.khoindvn.apple-dns.9bdeb781-cae9-499a-b996-6f05939622e4</string>
 			<key>PayloadOrganization</key>
@@ -82,22 +61,11 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Vũ Văn Khơi  ❤️( Đọc kỹ Nhé )
+	<string>Khơindvn
 
-- Không Phải Bạn Nào Cũng Thành Công
+Bật: Anti revoke cert-Nên nhé
 
-- Và Cũng Có Tỉ Lệ Cài Thành Công Là 50/50
-
-- Bạn Nào Cài Thành Công Thì Chúc Mừng Nhé 
-
-- Và Những Bạn Cài Không Thành Công Nó Sẽ Hiện 
-
-- Ứng Dụng Không Toàn Vẹn 
-
-- Tải Xuống Hết Tất Cả Mà Bạn Không Được Cái Nào 
-
-- Thì Chúc Mừng Bạn Đã Quay Vào Ô Mất Lượt 😂😂
-</string>
+Turn on: Anti revoke certificate - Should be</string>
 	<key>PayloadDisplayName</key>
 	<string>DNS By Khơindvn</string>
 	<key>PayloadIdentifier</key>
