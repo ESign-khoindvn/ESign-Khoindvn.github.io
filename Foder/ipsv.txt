@@ -1,1 +1,1 @@
-NSOVN:nsovn.ipsv.eu.org:14444:0:0,Tiger:tiger.ipsv.eu.org:14444:0:0,CYBER:nsocyber.ipsv.eu.org:14444:0:0,Unity:nsounity.ipsv.eu.org:14444:0:0,Khơindvn(New):khoindvn.bio.link:14444:0:1
+NSOYI:yi.ipsv.eu.org:14444:0:0,NSOVN:nsovn.ipsv.eu.org:14444:0:0,Tiger:tiger.ipsv.eu.org:14444:0:0,CYBER:nsocyber.ipsv.eu.org:14444:0:0,Unity:nsounity.ipsv.eu.org:14444:0:0,Khơindvn(New):khoindvn.bio.link:14444:0:1
