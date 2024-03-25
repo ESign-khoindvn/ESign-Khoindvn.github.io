@@ -1,1 +1,1 @@
-NSO ALPLA:alpa.ipsv.eu.org:14444:0:0,NSO Việt NAM Z:vnz.ipsv.eu.org:14444:0:0:NSOTB:nsotb.ipsv.eu.org:14444:0:0,NSOVN:nsovn.ipsv.eu.org:14444:0:0,Tiger:tiger.ipsv.eu.org:14444:0:0,Unity:nsounity.ipsv.eu.org:14444:0:0,Khơindvn(New):1.1.1.1:14444:0:1
+ALPLA:alpa.ipsv.eu.org:14444:0:0,VietNamZ:vnz.ipsv.eu.org:14444:0:0:NSOTB:nsotb.ipsv.eu.org:14444:0:0,NSOVN:nsovn.ipsv.eu.org:14444:0:0,Tiger:tiger.ipsv.eu.org:14444:0:0,Unity:nsounity.ipsv.eu.org:14444:0:0,khoindvn(New):1.1.1.1:14444:0:1
