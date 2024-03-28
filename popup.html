@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+    body {
+      min-height: 100vh;
+      background: linear-gradient(45deg, #ff00cc, #333399);
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      box-sizing: border-box;
+      animation: colorChange 5s infinite alternate;
+    
+    }
+ ::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.5); /* Màu nền trong suốt với độ mờ 0.5 */
+      border-radius: 4px; /* Bo tròn góc của thanh trượt */
+    }
+        ::-webkit-scrollbar-track {
+      background-color: transparent; /* Màu nền trong suốt */
+    }
+       ::-webkit-scrollbar {
+      width: 8px; /* Độ rộng của thanh trượt */
+    }
+
+    @keyframes colorChange {
+      0% {
+        background: linear-gradient(45deg, #ff00cc, #333399);
+      }
+      50% {
+        background: linear-gradient(45deg, #00ff99, #6600cc);
+      }
+      100% {
+        background: linear-gradient(45deg, #ff00cc, #333399);
+      }
+    }
+
+        .btn {
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 1px;
+            background: #64c306;
+            font-size: 12px;
+            color: #ffffff;
+            background-color: #64c306;
+            border-color: #64c306;
+            border: 0;
+            padding: 5px 8px;
+            border-radius: 3px;
+            cursor: pointer;
+            text-transform: uppercase;
+            float: right;
+        }
+
+        .btnImport {
+            width: 250px;
+            -moz-box-shadow: inset 0px 39px 0px -24px #e67a73;
+            -webkit-box-shadow: inset 0px 39px 0px -24px #e67a73;
+            box-shadow: inset 0px 39px 0px -24px #e67a73;
+            background-color: #4CAF50;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            border: 1px solid #ffffff;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: Tahoma;
+            font-size: 15px;
+            padding: 6px 15px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #b23e35;
+        }
+
+        .btnImport:hover {
+            background-color: #45a049;
+        }
+
+        .btnImport:active {
+            position: relative;
+            top: 1px;
+        }
+        .row {
+            width: 100%;
+            float: left;
+            margin-bottom: 10px;
+        }
+        label {
+            font-size: 13px;
+            font-family: Tahoma;
+            line-height: 1.5em;
+        }
+        .main {
+            width: 250px;
+            padding: 10px;
+        }
+        h2 {
+            font-size: 14px;
+            font-family: Tahoma;
+            color: #DB4437;
+            border-bottom: solid 1px gainsboro;
+            padding-bottom: 6px;
+            margin: 0px 0px 10px 0;
+        }
+        .footer {
+            font-size: 12px;
+            float: left;
+            width: 100%;
+            padding: 0px 10px 2px;
+            text-decoration: none;
+            background-color: #efefef;
+            border-top: solid 1px gainsboro;
+        }
+        .footer a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #999;
+        }
+        .footer a:hover {
+            color: #494949;
+        }
+        textarea {
+            resize: none;
+        }
+        #btnGetQRCode4 {
+          color: red;
+        }
+
+            #cookieResult {
+     width: 100%;
+      word-break: break-all;
+      background-color: rgba(255, 255, 255, 0.5); /* Màu trắng sáng với độ mờ 0.5 */
+      border: none;
+            border-radius: 10px; /* Bo tròn góc với bán kính 10px */
+      overflow-y: auto; /* Thanh trượt sẽ xuất hiện khi nội dung vượt quá chiều cao */
+
+    }
+        #cookieResult::-webkit-scrollbar {
+      width: 8px; /* Độ rộng của thanh trượt */
+    }
+                #cookieResult1 {
+     width: 100%;
+      word-break: break-all;
+      background-color: rgba(255, 255, 255, 0.5); /* Màu trắng sáng với độ mờ 0.5 */
+      border: none;
+            border-radius: 10px; /* Bo tròn góc với bán kính 10px */
+      overflow-y: auto; /* Thanh trượt sẽ xuất hiện khi nội dung vượt quá chiều cao */
+
+    }
+        #cookieResult1::-webkit-scrollbar {
+      width: 8px; /* Độ rộng của thanh trượt */
+    }
+
+        .rounded-iframe {
+      border-radius: 15px; /* Bo tròn góc của iframe */
+      overflow: hidden; /* Ẩn nội dung vượt ra ngoài phần bo tròn */
+    }
+    #result {
+  margin-top: 10px;
+}
+.error {
+  color: red;
+}
+.error1 {
+  color: red;
+}
+.error2 {
+  color: red;
+}
+    </style>
+  <script>
+    function getRandomColor() {
+      var letters = '0123456789ABCDEF';
+      var color = '#';
+      for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+
+    function changeBackgroundColor() {
+      var body = document.querySelector('body');
+      var newColor = getRandomColor();
+      body.style.backgroundColor = newColor;
+    }
+    setInterval(changeBackgroundColor, 500); // Thay đổi màu sau mỗi 2 giây
+  </script>
+	<script src="jquery.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="row">
+			 <label style="display:none;margin-bottom: 3px;" id="DivFbIdCurrent">
+				<input hidden type='text' id='CurrentFbId' value='' style="width: 120px;padding: 2px 2px 2px 5px;"/>
+			</label>
+            <label style="display:block;margin-bottom: 3px;">Cookie Trang Web Hiện Tại :
+				<label id='UrlCookieCurrent' style="color: #f16625;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;max-width: 148px;display: inline-block;vertical-align: top;font-weight: bold;"></label>
+			</label>
+            <textarea id="cookieResult" rows="6" style="width:100%;word-break: break-all;"></textarea>
+            <label for="fname" style="color: #f16625; font-weight: bold;">Cookie Facebook: </label>
+            <textarea id="cookieResult1" rows="6" style="width:100%;word-break: break-all;"></textarea>
+            <button id="btnImportCookie" type="button" style="float:left;" class="btn btnImport">NHẤP ĐỂ XEM THÔNG TIN TOOL</button>
+            <button id="btnGetAccessToken"  type="button"  class="btn btnImport">Get Key Laymangay</button>
+            <button id="btnGetQRCode"  type="button"  class="btn btnImport">Get key Link68</button>
+            <button id="btnGetQRCode1"  type="button"  class="btn btnImport">Get key Traffic123</button><br>
+            <button id="btnGetQRCode5" type="button" class="btn btnImport">Cheat traffic24h</button><br><br> 
+
+<label for="fname" style="color: #f16625; font-weight: bold;">Nhập địa chỉ web cần get code Mneylink.com:</label>
+<input type="text" id="fname" name="fname" value="example.com" style="width: 100%; border-radius: 10px;background-color: rgba(255, 255, 255, 0.5);"><br>
+<span id="error-msg" class="error"></span><br>
+<button id="btnGetQRCode2" type="button" class="btn btnImport">Get key Mneylink</button><br><br>
+
+<label for="fname1" style="color: #f16625; font-weight: bold;">Nhập địa chỉ web cần get code trafficdownload1s.com:</label>
+<input type="text" id="fname1" name="fname1" value="example.com" style="width: 100%; border-radius: 10px;background-color: rgba(255, 255, 255, 0.5);"><br>
+<span id="error-msg1" class="error1"></span><br>
+<button id="btnGetQRCode3" type="button" class="btn btnImport">Get key trafficdownload1s</button><br><br>
+
+<label for="fname2" style="color: #f16625; font-weight: bold;">Nhập địa chỉ web cần get code traffic1s.com: đang lỗi!!</label>
+<input type="text" id="fname2" name="fname2" value="example.com" style="width: 100%; border-radius: 10px;background-color: rgba(255, 255, 255, 0.5);"><br>
+<span id="error-msg2" class="error2"></span><br>
+<button id="btnGetQRCode4" type="button" class="btn btnImport">Cheat traffic1s</button><br><br>
+
+
+<div id="result"></div>
+            <a href="https://tme/helious_isme" target="_blank" style="color: #098cce">Update Extension</a>
+<h2 style="line-height: 24px; padding: 5px 5px 5px 10px; color: #9e8d52;">
+    <a href="profile.html" target="_blank">
+        <img src="../image/icon_feedback.png" style="width: 24px; margin-right: 5px; vertical-align: bottom;">
+    </a>
+    Nếu Gặp Lỗi Vui Lòng Nhâp Vào Hình Ảnh Feedback Bên Trái Để Phản Hồi!!
+    <br><br>
+    <span style="color: red;">Công cụ này sẽ giúp các bạn lấy cookie facebook phục vụ cho việc chạy tool tăng tương tác như <a href="https://traodoisub.com">traodoisub.com</a>; <a href="https://tuongtaccheo.com">tuongtaccheo.com</a>;... và đặc biệt vượt link chỉ trong 1s thay vì đợi hàng nhiều phút!!</span>
+    <br><br>
+<a href="./image/rules.svg" style="color: #ffcc00; font-size: 20px;" target="_blank">Điều Khoản Của Extension Over Link</a>
+</h2>
+		</div>
+    </div>
+</body>
+</html>
+
