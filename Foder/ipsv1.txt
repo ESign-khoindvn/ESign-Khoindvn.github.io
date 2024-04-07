@@ -1,1 +1,1 @@
-NSO Blue:sv.nsoblue.com:14444:0:0:
+NSO Blue:sv.nsoblue.com:14444:0:0:,NSO Blue(new):sv.nsoblue.com:14444:0:1:
