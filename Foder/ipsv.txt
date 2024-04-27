@@ -1,1 +1,1 @@
-ViệtNamZ:vnz.ipsv.eu.org:14444:0:0,Học Viện Ninja:hvninja.ipsv.eu.org:14444:0:0,Sky:sky.ipsv.eu.org:14444:0:0,NSO MAS:mas.ipsv.eu.org:14444:0:0,NSOTB:nsotb.ipsv.eu.org:14444:0:0,Unity:nsounity.ipsv.eu.org:14444:0:0,khoidev(New):54.151.133.77:14444:0:1
+,NSOTB:nsotb.ipsv.eu.org:14444:0:0,Unity:nsounity.ipsv.eu.org:14444:0:0,Giatoc(New):54.151.133.77:14444:0:1
