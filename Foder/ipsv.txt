@@ -1,1 +1,1 @@
-Gia Tộc Ninja:27.0.12.11:14445:0:0:,Gia Tộc Ninja (NEW):54.151.133.77:14444:0:1
+Vn:nsovn.ipsv.eu.org:14444:0:0,Vn2:nsovn2.ipsv.eu.org:14447:0:0,Play:nsoplay.ipsv.eu.org:14446:0:0,Mas:nsomas.ipsv.eu.org:14444:0:0,Alpha:nsoalpha.ipsv.eu.org:14444:0:0,Tiger:nsotiger.ipsv.eu.org:14444:0:0,M:nsom.ipsv..eu.org:14444:0:0,Beat:nsobeat.ipsv.eu.org:14444:0:0,Tb:nsotb.ipsv.eu.org:14444:0:0,Bro:nsobro.ipsv.eu.org:14444:0:0,Thor:nsothor.ipsv.eu.org:14444:0:0,Worl (new):worl.ipsv.eu.org:14444:0:1
