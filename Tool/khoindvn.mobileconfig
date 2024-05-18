@@ -10,72 +10,232 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query#(dns by khơindvn)</string>
+				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
 			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
 			<key>PayloadDisplayName</key>
-			<string>Block ADS 💕</string>
+			<string>Chặn thu hồi ( Có chặn ADS ) ✅</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.dnsSettings.managed.9d981129-d086-4891-b2cf-165ede3f8a90</string>
+			<string>vevrl9air2.cloudflare-gateway.com.profile</string>
 			<key>PayloadOrganization</key>
-			<string>khơindvn</string>
+			<string>Blocking Cert Revocation Yes Block Ads</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>0085f63c-ab6d-45ae-9f87-8e0cef7335d4</string>
+			<string>vevrl9air2.cloudflare-gateway.com</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>DNSSettings</key>
 			<dict>
-				<key>ServerAddresses</key>
-				<array/>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://vevrl9air2.cloudflare-gateway.com/dns-query</string>
 				<key>SupplementalMatchDomains</key>
 				<array>
 					<string>ocsp.apple.com</string>
 					<string>ocsp2.apple.com</string>
-					<string>certs.apple.com</string>
-					<string>crl.apple.com</string>
-					<string>valid.apple.com</string>
 					<string>mesu.apple.com</string>
+					<string>valid.apple.com</string>
+					<string>crl.apple.com</string>
+					<string>certs.apple.com</string>
 					<string>appattest.apple.com</string>
 					<string>vpp.itunes.apple.com</string>
-					<string>comm-main.ess.apple.com</string>
-					<string>comm-cohort.ess.apple.com</string>
-					<string>axm-app.apple.com</string>
+					<string>guzzoni-apple-com.v.aaplimg.com</string>
 					<string>gdmf.apple.com</string>
+					<string>axm-app.apple.com</string>
+					<string>comm-cohort.ess.apple.com</string>
+					<string>comm-main.ess.apple.com</string>
 				</array>
 			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+				</dict>
+			</array>
 			<key>PayloadDisplayName</key>
-			<string>Anti Revoke Cert ✅</string>
+			<string>Chặn thu hồi ( Không chặn ADS ) ✅</string>
 			<key>PayloadIdentifier</key>
-			<string>com.khoindvn.apple-dns.9bdeb781-cae9-499a-b996-6f05939622e4</string>
+			<string>khoindvn.bio.link.profile</string>
 			<key>PayloadOrganization</key>
-			<string>khơindvn</string>
+			<string>Blocking Cert Revocation No Block Ads</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>c26bcb7b-51df-443c-b842-b46ba09b3190</string>
+			<string>dev.khoindvn.bio.link</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>Icon</key>
+			<data>
+			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
+			/UPSiQAAAABJRU5ErkJggg==
+			</data>
+			<key>IgnoreManifestScope</key>
+			<true/>
+			<key>IsRemovable</key>
+			<true/>
+			<key>Label</key>
+			<string>eSign Khơindvn</string>
+			<key>PayloadDisplayName</key>
+			<string>Bio Khoindvn</string>
+			<key>PayloadIdentifier</key>
+			<string>khoindvn.profile</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>khoindvn.bio.link</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<false/>
+			<key>URL</key>
+			<string>https://khoindvn.bio.link</string>
+			<key>toPayloadOrganization</key>
+			<string>khoindvn</string>
+		</dict>
 	</array>
-	<key>PayloadDescription</key>
-	<string>Khơindvn
-
-Bật: Anti revoke cert-Nên nhé
-
-Turn on: Anti revoke certificate - Should be</string>
 	<key>PayloadDisplayName</key>
-	<string>DNS By Khơindvn</string>
+	<string>DNS Khơindvn</string>
 	<key>PayloadIdentifier</key>
-	<string>com.khoindvn.apple-dns.9cb3031c-a76f-4cc3-a919-d3187093eb9b</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
+	<string>khoindvn.cloudflare.warp.com.profile</string>
+	<key>PayloadScope</key>
+	<string>User</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>fafd46f6-4af6-4ee2-b538-eceb5b7cf1a1</string>
+	<string>khoindvn.cloudflare-gateway.com.dnsSettings.managed</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
