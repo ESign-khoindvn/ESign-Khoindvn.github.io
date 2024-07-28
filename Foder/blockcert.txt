@@ -1,12 +1,7 @@
 ocsp.apple.com
 ocsp2.apple.com
-certs.apple.com
-crl.apple.com
 valid.apple.com
-mesu.apple.com
+crl.apple.com
+certs.apple.com
 appattest.apple.com
 vpp.itunes.apple.com
-comm-main.ess.apple.com
-comm-cohort.ess.apple.com
-axm-app.apple.com
-gdmf.apple.com
