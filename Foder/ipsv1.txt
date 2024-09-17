@@ -1,1 +1,1 @@
-thor3:thor3.ipsv.eu.org:14444:0:0,KUMA:kuma.ipsv.eu.org:14444:0:0,Ruby:thor2.ipsv.eu.org:14444:0:0,Thor:nsothor.ipsv.eu.org:14444:0:0,Premium:nsomax.ipsv.eu.org:14444:0:0,Unity:nsout.ipsv.eu.org:14444:0:0,TDN:tdn.ipsv.eu.org:14444:0:0,Worl:worl.ipsv.eu.org:14444:0:1
+thor3:thor3.ipsv.eu.org:14444:0:0,KUMA:kuma.ipsv.eu.org:14444:0:0,Ruby:thor2.ipsv.eu.org:14444:0:0,Thor:nsothor.ipsv.eu.org:14444:0:0,Fan:nsofan.ipsv.eu.org:14444:0:0,Premium:nsomax.ipsv.eu.org:14444:0:0,Unity:nsout.ipsv.eu.org:14444:0:0,TDN:tdn.ipsv.eu.org:14444:0:0,Worl:worl.ipsv.eu.org:14444:0:1
